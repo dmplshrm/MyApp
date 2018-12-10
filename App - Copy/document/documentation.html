@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../favicon.ico">
+    <title>GoTRI - Mobile by maxartkiller</title>
+    <!-- Fontawesome icon CSS -->
+    <link rel="stylesheet" href="../html/vendor/materializeicon/material-icons.css" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../html/css/dark-greyheadersidebar.css" type="text/css">
+    <style>
+        pre code{ color:#7c00d6; background: rgba(201, 224, 255, 0.5);border: 1px solid #b3d3ff; padding: 15px; display: block}
+    </style>
+</head>
+
+<body class="fixed-header sidebar-right-close">
+
+    <div class="wrapper">
+        <!-- main header -->
+        <header class="main-header">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-auto pl-0">
+                        <button class="btn pink-gradient btn-icon" id="left-menu"><i class="material-icons">widgets</i></button>
+                        <a href="#" class="logo"><img src="../html/img/logo-icon.png" alt=""><span class="text-hide-xs"><b>Go</b>TRI</span></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main header ends -->
+
+        <!-- sidebar left -->
+        <div class="sidebar sidebar-left">
+            <div class="nav flex-column nav-pills faqnav" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <div class="title text-uppercase mb-2 small p-2">Getting started</div>
+                <a class="nav-link active show" id="v-pills-Introduction-tab" data-toggle="pill" href="#v-pills-Introduction" role="tab" aria-controls="v-pills-Introduction" aria-selected="true">Introduction</a>
+                <a class="nav-link" id="v-pills-Browsers-tab" data-toggle="pill" href="#v-pills-Browsers" role="tab" aria-controls="v-pills-Browsers" aria-selected="false">Browsers</a>
+                <a class="nav-link" id="v-pills-Theming-tab" data-toggle="pill" href="#v-pills-Theming" role="tab" aria-controls="v-pills-Theming" aria-selected="false">Theming</a>
+                <a class="nav-link" id="v-pills-Scripts-tab" data-toggle="pill" href="#v-pills-Scripts" role="tab" aria-controls="v-pills-Scripts" aria-selected="false">Scripts</a>
+                <a class="nav-link" id="v-pills-more-tab" data-toggle="pill" href="#v-pills-more" role="tab" aria-controls="v-pills-more" aria-selected="false">More</a>
+            </div>
+        </div>
+        <div class="container-fluid bg-light-opac">
+            <div class="row">
+                <div class="container my-3 main-container">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h2 class="content-color-primary page-title">Document</h2>
+                            <p class="content-color-secondary page-sub-title">V 1.0, Prepared by Maxartkiller, Creator of GoTRI-Mobile admin UI template, Drop a words at info@maxartkiller.in</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content page title ends -->
+
+        <!-- content page -->
+        <div class="container mt-4 main-container">
+            <div class="w-100 ">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade active show" id="v-pills-Introduction" role="tabpanel" aria-labelledby="v-pills-Introduction-tab">
+                        <h2 class="page-title">Introduction</h2>
+                        <br>
+                        <p>GoTRI - Mobile  is admin HTML template proudly developed with loving framework bootstrap 4. Basically this time we are thinking about to provide something diffrent than all other traditional monotonous templates. We belive in creative design with most usable structure and placements. We believe user should feel something awesome and wow while using accessing user interfaces. We can about users first and we care about customers.
+                            <br>
+                            <br> Here, Guidelines provided and introduces, few repeated content pages may be skipped through this guidelines. For the third parties we recommend to visit official docuemnts for complete guidelines about third parties. We have used Bracket.io html editor during this documentation and code writing. We also used Scout-app : The Sass GUI tool for compilation for scss.
+                            <br>
+                            <br> We also created themes with diffrent css you can switch other style theme with saperate css so we can reduce page load while writing and overiting css properties. This template also includes SCSS files which can be easily modified as per you need. We also customized variables properties of bootstrape scss and made it with 12 column grid structure. Grid structure can be changed by change in variables file of bootstrap scss. We have made our template based on 12 column stucture to make it fit with our UI to provide better responsive space in smaller view port sizes.
+                            <br>
+                            <br> This is all about this template. Hope you like our template and dont forget to share your experience.</p>
+                        <h6>Folder structure</h6>
+                        <hr>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <pre><code class="html">+  css
++  img
++  js 
++  scss
++ vendors
+...
+...
+...
+website pages
+...
+...
+...
+</code></pre>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-8">
+                                <ul class="disc">
+                                    <li>
+                                        <b>css: </b>Template css are placed at this folder</li>
+                                    <li>
+                                        <b>img: </b>All images used in tempaltes for display purpose are stored here (Does not included third party plugin's image in this folder)
+                                        <br>
+                                    </li>
+                                    <li>
+                                        <b>scss: </b>Scss source file for the expanding css styles</li>
+
+                                    <li>
+                                        <b>js: </b>Template js files kept in this folder</li>
+                                    <li>
+                                        <b>vendors: </b>We have try to include many ofthe thrid party with our template to show how it looks like with our template theme. mostly we have used MIT licence and free commercial use licences but further We strongly recommand to check licence once if your business domain, content are allow you to use thrid party.</li>
+                                    <li>
+                                        <b>website pages: </b>We have unique and creative designs for some of common pages used in websites are into this folder.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>
+                            All the assets are placed in folder are as per our requirements for demo and template. You can start with fresh copy and can add items as per your need in the web application or website creation.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-Browsers" role="tabpanel" aria-labelledby="v-pills-Browsers-tab">
+                        <h2 class="page-title">Browsers</h2>
+                        <p class="lead">GoTRI - Mobile works smoothly with cross browsers. We do care about compatibility.</p>
+                        <br>
+                        <p>
+                            Our base framework is Bootstrap 4.1.3+ which uses many of css3 properties and are compatible with latest modern browsers. Framework uses flex properties for grid structure and we also continued with that only to use of latest technology and design concepts. You can check it out framework guideline regarding compatible browser are at
+                            <a href="https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/" target="_blank">click here</a>.
+                            <br>
+                            <br> We have tested template with new latest browsers Chrome, IE 11, MS Edge, Mozilla Firefox. Our template is also responsive and minimum 400px width support some of the contents are depend on length and counts so consider while implementing if you are planning for minimum device support.
+                            <br>
+                            <br> This is also HTML css and js template which can help you to support in other technology like Angular, vue js, ,net, php developments. Which renders HTML into browsers. Some of technology which uses the HTML template for devices like phone gap can also be used with this template to create hybrid mobile app.
+                            <br> You can check out our demos. We are still growing and provide more application demos with new features and facility.
+                            <br>
+                            <br> Internet Explorer 10+ is supported; IE9 and older will be not supported. You can check % of browsers are used word wide with version to get idea about how important it is. Make sure that some CSS3 properties and HTML5 elements are not fully supported in IE10 and this may require prefixed css.
+                            <br>
+                        </p>
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-Theming" role="tabpanel" aria-labelledby="v-pills-Theming-tab">
+                        <h2 class="page-title">Colors Templating</h2>
+                        <p class="lead">GoTRI - Mobile comes with predefined themes for different color schemes.</p>
+                        <br>
+                        <div class="row">
+                            <div class="col-12 m-auto">
+                                <img src="../html/img/theme.png" alt="" class="mw-100">
+                            </div>
+                        </div>
+                        <br>
+                        <p>GoTRI - Mobile comes with predefined css with different shades. You can access our demos and click on menu > color scheme to view colorsare available, also from right setting sidebar colrs them select critera like sidebar bull colors or header and select color to apply it. You just have to switch with different css file. However this template comes with SCSS files so you can customize your own brand colors and compile it into css files. We have default white color template css and other are given color name as suffix.
+                                                    
+                        </p>
+                        <p>Default white css file:</p>
+                        <pre><code class="html">&lt;link id="theme" rel="stylesheet" href="css/styleheadersidebar.css" type="text/css"&gt;</code></pre>
+                        <br>
+                        <p>Dark css file full dark:</p>
+                        <pre><code class="html">&lt;link id="theme" rel="stylesheet" href="css/css/grey.css" type="text/css"&gt;</code></pre>
+                        <br>
+                        <p>Purple css file header and sidebar colors:</p>
+                        <pre><code class="html">&lt;link id="theme" rel="stylesheet" href="css/purpleheadersidebar.css" type="text/css"&gt;</code></pre>
+                        <br>
+                        <p>Red with Dark layout css file header and sidebar color:</p>
+                        <pre><code class="html">&lt;link id="theme" rel="stylesheet" href="css/dark-pinkheadersidebar.css" type="text/css"&gt;</code></pre>
+                        
+                        and so on...
+                        
+                        <br>
+                        Here in demo whave used main.js which will not switch uin stlye but you can also switch styles by  incluing <b>cookie.js</b> and <b>main-with-style-switcher.js</b> file scripts which requires local host server or a server hosting to run cookie. By selecting color schemes in right side panel. You can switch colors.
+                        
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-Scripts" role="tabpanel" aria-labelledby="v-pills-Scripts-tab">
+                        <h2 class="page-title">Scripts</h2>
+                        <p class="lead">GoTRI - Mobile comes with predefined script for menu close and template color schemes.</p>
+                        <br>
+                        <p>For jQuery and framework js files, you can find it at bottom of the page code. First all three files are added and later our custom css added. You can add any other css from third party in between of these two group framework js and custom js. However custom js comes with code which we requires in template for all features. you can define your js as per your need.</p>
+                        <p>We have added comments at start of each script for functionalities we have used.</p>
+                        <pre><code class="html">&lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+&lt;script src="js/jquery-3.2.1.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/popper.min.js"&gt;&lt;/script&gt;
+&lt;script src="vendor/bootstrap-4.1.3/bootstrap.min.js"&gt;&lt;/script&gt;
+	  
+&lt;!-- Custom script --&gt;
+&lt;script src="js/main.js"&gt;&lt;/script&gt;</code></pre>
+
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-more" role="tabpanel" aria-labelledby="v-pills-more-tab">
+                        <h2 class="page-title">More</h2>
+                        <p class="lead">GoTRI - Mobile is crafted with uniqueness and modern touch</p>
+                        <br>
+                        <p>For begining page you can start with the default page code for template.</p>
+                        <pre><code class="html w-100">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;!-- Required meta tags --&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"&gt;
+
+    &lt;!-- favicons --&gt;
+    &lt;link rel="apple-touch-icon" href="img/favicon-apple.png"&gt;
+    &lt;link rel="icon" href="img/favicon.png"&gt;
+
+    &lt;!-- Bootstrap CSS --&gt;
+    &lt;link rel="stylesheet" href="vendor/bootstrap-4.1.3/css/bootstrap.min.css"&gt;
+
+    &lt;!-- Material design icons CSS --&gt;
+    &lt;link rel="stylesheet" href="vendor/materializeicon/material-icons.css"&gt;
+
+    &lt;!-- aniamte CSS --&gt;
+    &lt;link rel="stylesheet" href="vendor/animatecss/animate.css"&gt;
+
+    &lt;!-- app CSS --&gt;
+    &lt;link id="theme" rel="stylesheet" href="css/purplesidebar.css" type="text/css"&gt;
+
+    &lt;title&gt;GoTRI&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body class="fixed-header sidebar-right-close"&gt;
+    &lt;!-- page loader --&gt;
+    &lt;div class="loader justify-content-center pink-gradient"&gt;
+        &lt;div class="align-self-center text-center"&gt;
+            &lt;div class="logo-img-loader"&gt;
+                &lt;img src="img/loader-hole.png" alt="" class="logo-image"&gt;
+                &lt;img src="img/loader-bg.png" alt="" class="logo-bg-image"&gt;
+            &lt;/div&gt;
+            &lt;h2 class="mt-3 font-weight-light"&gt;GoTRI&lt;/h2&gt;
+            &lt;p class="mt-2 text-white"&gt;Awesome things getting ready...&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- page loader ends  --&gt;
+
+    &lt;div class="wrapper"&gt;
+        &lt;!-- main header --&gt;
+        &lt;header class="main-header"&gt;
+            &lt;div class="container-fluid"&gt;
+                &lt;div class="row align-items-center"&gt;
+                    &lt;div class="col-auto pl-0"&gt;
+                        &lt;button class="btn pink-gradient btn-icon" id="left-menu"&gt;&lt;i class="material-icons"&gt;widgets&lt;/i&gt;&lt;/button&gt;
+                        &lt;a href="index.html" class="logo"&gt;&lt;img src="img/logo-icon.png" alt=""&gt;&lt;span class="text-hide-xs"&gt;&lt;b&gt;Go&lt;/b&gt;PRO&lt;/span&gt;&lt;/a&gt;
+                        &lt;form class="search-header"&gt;
+                            &lt;div class="input-group"&gt;
+                                &lt;input type="text" class="form-control" placeholder="Search..."&gt;
+                                &lt;div class="input-group-append"&gt;
+                                    &lt;button class="btn " type="button"&gt;&lt;i class="material-icons"&gt;search&lt;/i&gt;&lt;/button&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+
+                        &lt;/form&gt;
+                    &lt;/div&gt;
+                    &lt;div class="col text-center p-xs-0"&gt;
+                        &lt;ul class="time-day"&gt;
+                            &lt;li class="text-right"&gt;
+                                &lt;p class="header-color-primary"&gt;&lt;span class="header-color-secondary"&gt;November&lt;/span&gt;&lt;small&gt;2018&lt;/small&gt;&lt;/p&gt;
+                                &lt;h2&gt;7&lt;/h2&gt;
+                            &lt;/li&gt;
+                            &lt;li class="text-left"&gt;
+                                &lt;h2&gt;36&lt;span class="header-color-secondary font-weight-light"&gt;&lt;sup&gt;o&lt;/sup&gt;C&lt;/span&gt;&lt;/h2&gt;
+                                &lt;p class="header-color-primary text-hide-lg"&gt;&lt;span class="header-color-secondary"&gt;London&lt;/span&gt;&lt;small&gt;11:24 am&lt;/small&gt;&lt;/p&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+
+                    &lt;/div&gt;
+                    &lt;div class="col-auto pr-0"&gt;
+                        &lt;button class="btn btn-search btn-icon header-color-secondary" type="button"&gt;&lt;i class="material-icons"&gt;search&lt;/i&gt;&lt;/button&gt;
+
+                        &lt;div class="dropdown d-inline-block"&gt;
+                            &lt;a class="btn header-color-secondary btn-icon dropdown-toggle caret-none" href="#" role="button" id="dropdownmessage2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+                                &lt;figure class="avatar avatar-24 vm d-inline-block border"&gt;&lt;img src="img/india.png" alt=""&gt;&lt;/figure&gt;
+                            &lt;/a&gt;
+                            &lt;div class="dropdown-menu" aria-labelledby="dropdownmessage2"&gt;
+                                &lt;div class="dropdown-item"&gt;
+                                    &lt;figure class="avatar avatar-24 mr-2 vm d-inline-block"&gt;&lt;img src="img/india.png" alt=""&gt;&lt;/figure&gt; India
+                                &lt;/div&gt;
+                                &lt;div class="dropdown-item"&gt;
+                                    &lt;figure class="avatar avatar-24 mr-2 vm d-inline-block"&gt;&lt;img src="img/canada.png" alt=""&gt;&lt;/figure&gt; Canada
+                                &lt;/div&gt;
+                                &lt;div class="dropdown-item"&gt;
+                                    &lt;figure class="avatar avatar-24 mr-2 vm d-inline-block"&gt;&lt;img src="img/unitedstates.png" alt=""&gt;&lt;/figure&gt; United States
+                                &lt;/div&gt;
+                                &lt;div class="dropdown-item"&gt;
+                                    &lt;figure class="avatar avatar-24 mr-2 vm d-inline-block"&gt;&lt;img src="img/uk.png" alt=""&gt;&lt;/figure&gt; United Kingdom
+                                &lt;/div&gt;
+                                &lt;div class="dropdown-item"&gt;
+                                    &lt;figure class="avatar avatar-24 mr-2 vm d-inline-block"&gt;&lt;img src="img/china.png" alt=""&gt;&lt;/figure&gt; China
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                       
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/header&gt;
+        &lt;!-- main header ends --&gt;
+
+        &lt;!-- sidebar left --&gt;
+        &lt;div class="sidebar sidebar-left"&gt;
+            &lt;ul class="nav flex-column"&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a href="javascript:void(0);" class="nav-link dropdwown-toggle"&gt;&lt;i class="material-icons icon"&gt;insert_chart_outlined&lt;/i&gt; &lt;span&gt;Dashboard&lt;/span&gt;&lt;i class="material-icons icon arrow"&gt;expand_more&lt;/i&gt;&lt;/a&gt;
+                    &lt;ul class="nav flex-column"&gt;
+                        &lt;li class="nav-item"&gt;
+                            &lt;a href="index.html" class="nav-link pink-gradient-active"&gt;&lt;i class="material-icons icon"&gt;&lt;/i&gt; &lt;span&gt;Production&lt;/span&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="nav-item"&gt;
+                            &lt;a href="ecommerce.html" class="nav-link pink-gradient-active"&gt;&lt;i class="material-icons icon"&gt;&lt;/i&gt; &lt;span&gt;eCommerce&lt;/span&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="nav-item"&gt;
+                            &lt;a href="networking.html" class="nav-link pink-gradient-active"&gt;&lt;i class="material-icons icon"&gt;&lt;/i&gt; &lt;span&gt;Networking&lt;/span&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="nav-item"&gt;
+                            &lt;a href="finance.html" class="nav-link pink-gradient-active"&gt;&lt;i class="material-icons icon"&gt;&lt;/i&gt; &lt;span&gt;Finance&lt;/span&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="nav-item"&gt;
+                            &lt;a href="social.html" class="nav-link pink-gradient-active"&gt;&lt;i class="material-icons icon"&gt;&lt;/i&gt; &lt;span&gt;Social&lt;/span&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="nav-item"&gt;
+                            &lt;a href="todo.html" class="nav-link pink-gradient-active"&gt;&lt;i class="material-icons icon"&gt;&lt;/i&gt; &lt;span&gt;ToDo&lt;/span&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+                
+                &lt;li class="nav-item"&gt;
+                    &lt;a href="javascript:void(0);" class="nav-link dropdwown-toggle"&gt;&lt;i class="material-icons icon"&gt;domain&lt;/i&gt; &lt;span&gt;Level 1&lt;/span&gt;&lt;i class="material-icons icon arrow"&gt;expand_more&lt;/i&gt;&lt;/a&gt;
+                    &lt;ul class="nav flex-column"&gt;
+                        &lt;li class="nav-item"&gt;
+                            &lt;a href="javascript:void(0);" class="nav-link pink-gradient-active"&gt;&lt;i class="material-icons icon"&gt;&lt;/i&gt; &lt;span&gt;Level 2&lt;/span&gt;&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li class="nav-item"&gt;
+                            &lt;a href="javascript:void(0);" class="nav-link pink-gradient-active"&gt;&lt;i class="material-icons icon"&gt;&lt;/i&gt; &lt;span&gt;Level 2&lt;/span&gt;&lt;/a&gt;
+                            &lt;ul class="nav flex-column"&gt;
+                                &lt;li class="nav-item"&gt;
+                                    &lt;a href="javascript:void(0);" class="nav-link pink-gradient-active"&gt;&lt;i class="material-icons icon"&gt;&lt;/i&gt; &lt;span&gt;Level 3&lt;/span&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;!-- sidebar left ends --&gt;
+
+        &lt;!-- sidebar right --&gt;
+        &lt;div class="sidebar sidebar-right"&gt;
+            &lt;button type="button" class="btn close-sidebar"&gt;&lt;i class="material-icons"&gt;settings&lt;/i&gt;&lt;/button&gt;
+            &lt;div class="row mx-0 pt-2"&gt;
+                &lt;div class="col-12"&gt;
+                    &lt;p class="sidebar-color-primary page-sub-title-small"&gt;
+                        &lt;span class="icon-circle mr-2"&gt;
+                            &lt;i class="material-icons"&gt;settings&lt;/i&gt;
+                        &lt;/span&gt;Visual Style Setting&lt;/p&gt;
+                    &lt;p class="sidebar-color-secondary"&gt;We provide wide range of color scheme to change from&lt;/p&gt;
+                    &lt;div class="row"&gt;
+                        &lt;ul class="list-group border-top border-bottom list-group-flush w-100"&gt;
+                            &lt;li class="list-group-item"&gt;
+                                &lt;span class="vm"&gt;Boxed Layout&lt;/span&gt;
+                                &lt;input type="checkbox" id="boxlayout" class="switch switch-sm"&gt;
+                                &lt;label for="boxlayout" class="pink-gradient float-right"&gt;&lt;/label&gt;
+                            &lt;/li&gt;
+                            &lt;li class="list-group-item"&gt;
+                                &lt;span class="vm"&gt;Full Container&lt;/span&gt;
+                                &lt;input type="checkbox" id="full-width2" class="switch switch-sm"&gt;
+                                &lt;label for="full-width2" class="pink-gradient float-right"&gt;&lt;/label&gt;
+                                &lt;p class="sidebar-color-secondary mt-2 mb-0"&gt;&lt;small&gt;Container will be full width in big screen&lt;/small&gt;&lt;/p&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- sidebar right ends --&gt;
+
+      
+
+        &lt;!-- content page title --&gt;
+        &lt;div class="container-fluid bg-light-opac"&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="container my-3 main-container"&gt;
+                    &lt;div class="row align-items-center"&gt;
+                        &lt;div class="col"&gt;
+                            &lt;h2 class="content-color-primary page-title"&gt;Blank&lt;/h2&gt;
+                            &lt;p class="content-color-secondary page-sub-title"&gt;Creative, amazing, awesome and unique&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class="col-auto"&gt;
+                            &lt;button class="btn btn-rounded pink-gradient text-uppercase pr-3"&gt;&lt;i class="material-icons"&gt;add&lt;/i&gt; &lt;span class="text-hide-xs"&gt;Create&lt;/span&gt;&lt;/button&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;!-- content page title ends --&gt;
+
+        &lt;!-- content page --&gt;
+        &lt;div class="container mt-4 main-container"&gt;
+            Content here
+        &lt;/div&gt;
+        &lt;!-- content page ends --&gt;
+
+    &lt;/div&gt;
+    &lt;footer class="border-top"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-12 col-sm-6"&gt;This template is designed by &lt;b&gt;maxartkiller&lt;/b&gt; with &lt;span class="text-danger"&gt;❤&lt;/span&gt;&lt;/div&gt;
+            &lt;div class="col-12 col-sm-6 text-right"&gt;&lt;a href="" class="content-color-secondary"&gt;Privacy Policy&lt;/a&gt; | &lt;a href="" class="content-color-secondary"&gt;Terms of use&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+
+
+
+
+    &lt;!-- Optional JavaScript --&gt;
+    &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+    &lt;script src="js/jquery-3.2.1.min.js"&gt;&lt;/script&gt;
+    &lt;script src="js/popper.min.js"&gt;&lt;/script&gt;
+    &lt;script src="vendor/bootstrap-4.1.3/js/bootstrap.min.js"&gt;&lt;/script&gt;
+
+    &lt;!-- Application main common jquery file --&gt;
+    &lt;script src="js/main.js"&gt;&lt;/script&gt;
+
+    &lt;!-- page specific script --&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+                        <p>Thanks for taking interest and purchase our template.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- content page ends -->
+    </div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="../html/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="../html/js/popper.min.js"></script>
+    <script src="../html/vendor/bootstrap-4.1.3/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../html/js/main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
